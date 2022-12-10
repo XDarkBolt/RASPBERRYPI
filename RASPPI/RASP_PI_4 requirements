@@ -1,0 +1,8 @@
+sudo pip3 install mysql.connector
+sudo pip3 install RPi.GPIO
+sudo pip3 install os-sys
+
+sudo crontab -e
+@reboot sudo chmod 777 /dev/gpiomem
+@reboot sudo python3 /home/rasp_pi_4/Desktop/BASIC_GPIO.py
+
